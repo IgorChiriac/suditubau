@@ -1,0 +1,62 @@
+[
+  {
+    "groupName": "group1",
+    "folder": "Fliesenlegen",
+    "smallImage": "img_small.jpg",
+    "imageHover": "1.jpg",
+    "caption": "Fliesenlegen",
+    "picturesArray": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg"
+    ]
+  },
+  {
+    "groupName": "group2",
+    "folder": "Gartenmauern",
+    "smallImage": "img_small.png",
+    "imageHover": "1.jpg",
+    "caption": "Gartenmauern",
+    "picturesArray": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg"
+    ]
+  },
+  {
+    "groupName": "group3",
+    "folder": "Lehmputz",
+    "smallImage": "img_small.jpg",
+    "imageHover": "1.jpg",
+    "caption": "Lehmputz",
+    "picturesArray": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg"
+    ]
+  },
+  {
+    "groupName": "group4",
+    "folder": "Malerarbeiten",
+    "smallImage": "img_small.jpg",
+    "imageHover": "1.jpg",
+    "caption": "Malerarbeiten",
+    "picturesArray": [
+      "1.jpg",
+      "2.jpg"
+    ]
+  }
+]

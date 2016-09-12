@@ -1,0 +1,88 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+// Variables
+@import "variables";
+@import "purecss";
+@import "carousel";
+@import "fancybox";
+@import "layout";
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+  &-text-motto {
+    margin: 15px 15px 0 0;
+    display: inline;
+    right: 10px;
+    color: #E1612B;
+    font-size: large;
+    float: right
+  }
+}
+
+.slider-container {
+  margin-top: 68px;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  left: 0
+}
+
+.hidden {
+  display: none;
+}
+
+.masonryContainer {
+  list-style-type: none;
+  width: 100%;
+  .grid-item {
+    width: 160px;
+    position: relative;
+  }
+
+  .grid-item img {
+    width: 160px;
+    height: 200px;
+  }
+
+  .grid-item a .caption {
+    background-color: rgba(0, 0, 0, .7);
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    margin-bottom: 9px;
+    height: 40px;
+  }
+
+  .grid-item a .caption h2 {
+    color: #E1612B;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: normal;
+    margin-top: -2px
+  }
+
+  .grid-item a .caption p {
+    color: #fff;
+    display: none;
+    line-height: 150%;
+    transition: all .2s;
+    width: 90%;
+    letter-spacing: normal
+  }
+
+  .grid-item a:hover .caption p {
+    display: block;
+    margin-bottom: 20px
+  }
+}
